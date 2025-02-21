@@ -26,4 +26,9 @@ int main(){
     printf("Digite a opção: ");
     scanf(" %c", &opcao); // se não inserir um espaço antes do formato nessa situação, o comando não será lido corretamente.
     printf("A opção é: %c\n", opcao);
+
+    printf("Digite seu nome completo: ");
+    fgets(nome, 20, stdin);
+    // nome[strcspn(nome, "\n")] = 0;
+    printf("Nome completo digitado: %s\n", nome);
 }
