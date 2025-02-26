@@ -98,6 +98,7 @@ int main() {
     resultadoPibPerCapita = pibPerCapita > pibPerCapita1;
     resultadoSuperPoder = superPoder > superPoder1;
 
+    //Respostas finais
     printf("--------------------------------\n");    
     printf("RESPOSTA = 1 => VENCEDOR CARTA A\n");
     printf("RESPOSTA = 0 => VENCEDOR CARTA B\n");
