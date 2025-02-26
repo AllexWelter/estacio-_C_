@@ -2,7 +2,7 @@
 
 
 int main() {
-    //declaração de variáveis se valor
+    //declaração de variáveis de valor
     char estado;
     char estado1;
     char codigo[10];
@@ -18,6 +18,7 @@ int main() {
     int pontosTuristicos;
     int pontosTuristicos1;
 
+    //variáveis para comparação
     unsigned long int populacaoResultado;
     float areaResultado;
     float pibResultado;
