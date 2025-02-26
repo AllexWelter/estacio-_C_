@@ -15,9 +15,6 @@ int main(){
     unsigned int estoqueMinimoA = 500;
     unsigned int estoqueMinimoB = 2500;
 
-    double valorTotalA;
-    double valorTotalB;
-
     int resultadoA, resultadoB;
 
     //Exibir infos dos produtos
@@ -30,6 +27,9 @@ int main(){
 
     printf("O %s tem estoque mínimo? 1 para sim: %d\n", produtoA, resultadoA);
     printf("O %s tem estoque mínimo? 1 para sim: %d\n", produtoB, resultadoB);
+
+    //Comparações entre os valores totais dos produtos
+    printf("O valor total de A(R$ %.2f) é maior que o valor total de B(R$ %.2f)? 1 para sim e 0 para não: %d\n",estoqueA * valorA, estoqueB * valorB, (estoqueA * valorA) > (estoqueB * valorB));
 
 
 
