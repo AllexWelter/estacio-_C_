@@ -1,23 +1,20 @@
-//EXEMPLO COM WHILE
+//EXEMPLO COM DO WHILE
 
 #include <stdio.h>
-
 
 int main(){
 
     int i = 1;
 
-    while(i <= 10) { //Loop externo
+    do{ //Loop externo
         int j = 1; //Variável local
-        while(j <= 10) { //Loop interno
+        do { //Loop interno 
             printf("%d\t", i * j);
             j++; //Incremento loop interno
-        }
+        } while(j <= 10); //Condição interno
         printf("\n");
-        i++;//Incremento loop externo 
-    }
-
-
+        i++; //Incremento loop externo
+    } while(i <= 10); //Condição externa
 
 
     return 0;
