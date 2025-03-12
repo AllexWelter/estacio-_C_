@@ -1,7 +1,10 @@
+
+// Exemplo de procedimento 
+
 #include <stdio.h>
 
 // Definição de procedimento para imprimir uma mensagem
-void imprimirMensagem(){
+void imprimirMensagem() {
     printf("Olá, mundo!\n");
 }
 
