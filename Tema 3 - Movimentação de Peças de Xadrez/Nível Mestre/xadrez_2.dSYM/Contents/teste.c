@@ -2,18 +2,42 @@
 
 
 int main(){
-    int ind = 1, num, controle = 0, menor;
+    int controle = 1, num, menor, cont;
 
-    while (ind <= 5){
-        printf("Digite um número: ");
+    for(cont = 1; cont <= 20; cont++){
+        printf("Digite um número:", cont);
         scanf("%d", &num);
+        
+
+        if (controle == 1)
+        menor = num;
+        else if (num < menor)
+        menor = num;
         controle ++;
-        if (controle == 1 && num % 2 == 0)
-            menor = num;
-        else
-            if (num < menor)
-                menor = num;
-    ind ++;
+        
+
     }
-    
+        printf("O menor número é: %d\n", menor);
+
+
+    return 0;
 }
+
+
+
+
+
+// int controle = 1, num, menor, cont;
+
+//     for(cont = 1; cont <= 20; cont++){
+//         scanf("%d", &num);
+        
+
+//         if (controle == 1)
+//         menor = num;
+//         else if (num < menor)
+//         menor = num;
+//         controle++;
+
+       
+//     }
