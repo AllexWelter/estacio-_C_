@@ -19,7 +19,6 @@ int main(){
     }
         printf("O menor número é: %d\n", menor);
 
-
     return 0;
 }
 
