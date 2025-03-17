@@ -8,7 +8,6 @@ int main(){
         printf("Digite um número:", cont);
         scanf("%d", &num);
         
-
         if (controle == 1)
         menor = num;
         else if (num < menor)
