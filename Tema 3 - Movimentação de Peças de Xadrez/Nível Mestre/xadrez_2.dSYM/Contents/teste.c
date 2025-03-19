@@ -13,7 +13,6 @@ int main(){
         else if (num < menor)
         menor = num;
         controle ++;
-
     }
         printf("O menor número é: %d\n", menor);
 
