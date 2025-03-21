@@ -7,7 +7,7 @@ int main(){
     for(cont = 1; cont <= 20; cont++){
 
         printf("Digite um número:", cont);
-        
+
         scanf("%d", &num);
         
         if (controle == 1)
@@ -36,6 +36,5 @@ int main(){
 //         else if (num < menor)
 //         menor = num;
 //         controle++;
-
        
 //     }
