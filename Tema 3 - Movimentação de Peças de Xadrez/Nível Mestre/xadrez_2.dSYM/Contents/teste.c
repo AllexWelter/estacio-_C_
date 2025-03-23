@@ -34,6 +34,5 @@ int main(){
 //         menor = num;
 //         else if (num < menor)
 //         menor = num;
-//         controle++;
-       
+//         controle++;  
 //     }
