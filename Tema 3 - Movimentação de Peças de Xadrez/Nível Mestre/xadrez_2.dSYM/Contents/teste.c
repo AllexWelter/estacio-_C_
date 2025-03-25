@@ -23,7 +23,6 @@ int main(){
 
 
 
-
 // int controle = 1, num, menor, cont;
 
 //     for(cont = 1; cont <= 20; cont++){
